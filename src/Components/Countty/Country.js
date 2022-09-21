@@ -11,7 +11,7 @@ function Country(props) {
                 <div className="p-2 border border-warning bg-warning">
                     <img src={flags.svg} className="card-img-top" alt="..." />
                 </div>
-                <div className="card-body">
+                <div className="card-body border border-warning">
                     <h5 className="card-title">{name.common}</h5>
                     <p className="card-text">Population: {population}
                         <br />Region: {region}
